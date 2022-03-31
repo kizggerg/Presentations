@@ -1,0 +1,23 @@
+{
+  "name": "presentations",
+  "version": "1.0.0",
+  "description": "List of my engineering presentations",
+  "main": "index.js",
+  "scripts": {
+    "start:soft_skills": "reveal-md ./soft_skills_for_starters/Presentation.md --theme ./themes/diligent.css",
+    "start:soft_skills:watch": "npm run start:soft_skills -- -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kizggerg/Presentations.git"
+  },
+  "author": "Greg Gzik",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/kizggerg/Presentations/issues"
+  },
+  "homepage": "https://github.com/kizggerg/Presentations#readme",
+  "dependencies": {
+    "reveal-md": "^5.3.2"
+  }
+}
