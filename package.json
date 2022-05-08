@@ -4,7 +4,7 @@
   "description": "List of my engineering presentations",
   "main": "index.js",
   "scripts": {
-    "start:soft_skills": "reveal-md ./soft_skills_for_starters/Presentation.md --theme ./themes/diligent.css",
+    "start:soft_skills": "reveal-md ./soft_skills_for_starters/Presentation.md --theme ./themes/diligent.css --title \"Soft Skills\"",
     "start:soft_skills:watch": "npm run start:soft_skills -- -w"
   },
   "repository": {
